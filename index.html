@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Modal</title>
+</head>
+
+<body>
+  <div>
+    <h1>Foodelicious 😋</h1>
+  </div>
+  <main id="container">
+    <img src="./img/food1.jpeg" description="Plate of delicious food.">
+    <img src="./img/food2.jpeg" description="Drinks">
+    <img src="./img/food3.jpeg" description="Soup">
+    <img src="./img/food4.jpeg" description="Pasta">
+    <img src="./img/food5.jpeg" description="Croissants">
+    <img src="./img/food6.jpeg" description="Ramen">
+    <img src="./img/food7.jpeg" description="Smoothie">
+    <img src="./img/food8.jpeg" description="Creme Brulé">
+  </main>
+
+  <div id="modal" class="modal no-display">
+    <div>
+      <div id="modal-container">
+        <img id="modal-img" src="./img/food1.jpeg">
+      </div>
+      <div class="content">
+        <button id="back">&#10094;</button>
+        <div id="img-description" class="description"></div>
+        <button id="next">&#10095;</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div>
+      <a href="https://www.linkedin.com/in/fernanda-souza-dev/">by Fernanda Souza</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
