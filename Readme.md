@@ -8,6 +8,13 @@ This project implements a basic image gallery with a modal using Vanilla JavaScr
 - Navigate through images using the right and left arrow buttons.
 - Use keyboard arrow keys (left and right) to navigate through images.
 
+  
+## Deployment
+
+Deployed with Github Pages.
+
+_Link:_ https://fercfmsouza.github.io/Modal-Vanilla-JS/
+
 ## Example Image
 
 Here's a screenshot of the modal gallery in action:
